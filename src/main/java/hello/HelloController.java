@@ -8,6 +8,6 @@ public class HelloController {
 
     @RequestMapping("/")
     public String index() {
-        return "Greetings HCL Cloud Native Labs";
+        return "Greetings HCL from Cloud Native Labs";
     }
 }
