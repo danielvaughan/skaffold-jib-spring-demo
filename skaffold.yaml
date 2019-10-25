@@ -5,6 +5,7 @@ metadata:
 build:
   artifacts:
   - image: hclcnlabs/skaffold-jib-spring-gradle
+    jib: {}
 deploy:
   kubectl:
     manifests:

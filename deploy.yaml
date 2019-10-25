@@ -32,6 +32,6 @@ spec:
     spec:
       containers:
         - name: web
-          image: hclcnlabs/skaffold-jib-spring-gradle:0.0.1
+          image: hclcnlabs/skaffold-jib-spring-gradle
           ports:
             - containerPort: 8080
