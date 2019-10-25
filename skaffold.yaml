@@ -1,0 +1,11 @@
+apiVersion: skaffold/v1beta16
+kind: Config
+metadata:
+  name: skaffold-jib-spring-demo
+build:
+  artifacts:
+  - image: hclcnlabs/skaffold-jib-spring-gradle
+deploy:
+  kubectl:
+    manifests:
+    - deploy.yaml
