@@ -1,6 +1,0 @@
-apiVersion: skaffold/v1beta15
-kind: Config
-build:
-  artifacts:
-  - image: hclcnlabs/skaffold-jib-spring-gradle
-    jib: {}
